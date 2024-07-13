@@ -1,185 +1,693 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-<link href="./image/Appdata_image/Logo/80.png" rel="icon" />
-<title>GPS Photo Location On Map</title>
-<meta name="description" content="">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+  <link href="./image/Appdata_image/Logo/80.png" rel="icon" />
+  <title>GeoClick : GPSCamera On Photo</title>
+  <meta name="description" content="">
 
-<!-- Web Fonts -->
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- Web Fonts -->
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900'
+    type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
-<!-- Stylesheet
+  <!-- Stylesheet
 ============================================= -->
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
-<!-- Font Awesome Icon -->
-<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
-<!-- Owl Carousel -->
-<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
-<!-- Magnific Popup -->
-<link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
-<!-- Custom Stylesheet -->
-<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-<!-- Colors Css -->
-<link id="color-switcher" type="text/css" rel="stylesheet" href="#" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+  <!-- Colors Css -->
+  <link id="color-switcher" type="text/css" rel="stylesheet" href="#" />
 </head>
 
 <body class="side-header" data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="1">
 
-<!-- Preloader -->
-<div class="preloader">
-  <div data-loader="dual-ring"></div>
-</div>
-<!-- Preloader End --> 
 
-<!-- Document Wrapper   
+  <!-- Document Wrapper   
 =============================== -->
-<div id="main-wrapper"> 
-  <!-- Header
+  <div id="main-wrapper">
+    <!-- Header
   ============================ -->
-  <header id="header" class="sticky-top"> 
-    <!-- Navbar -->
-    <nav class="primary-menu navbar navbar-expand-lg navbar-text-light bg-dark fw-500 text-4">
-      <div class="container-lg position-relative h-100 flex-lg-column px-lg-3 px-lg-5 py-lg-4"> 
-        <!-- Logo --> 
-        <a class="logo text-lg-center d-lg-block mt-lg-3 mb-lg-4" href="index.html" title="Audio Book"> <img src="./image/Appdata_image/Logo/512.png" style="height: 93px;" alt="Audio Book"/> </a> 
-        <h4 class="text-lg-center d-lg-block mt-lg-3 mb-lg-4" style="color: white;">GPS Photo Location On Map</h4>
-       
-        <!-- Logo End -->
-        <div id="header-nav" class="collapse navbar-collapse w-100">
-          <ul class="navbar-nav my-lg-auto text-lg-center">
-           
-            <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
-          
+    <header id="header" class="sticky-top">
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg navbar-text-light bg-dark fw-500 text-4">
+        <div class="container-lg position-relative h-100 flex-lg-column px-lg-3 px-lg-5 py-lg-4">
+          <!-- Logo -->
+          <a class="logo text-lg-center d-lg-block mt-lg-3 mb-lg-4" href="index.html" title="Audio Book"> <img
+              src="./image/Appdata_image/Logo/512.png" style="height: 93px;" alt="Audio Book" /> </a>
+          <h4 class="text-lg-center d-lg-block mt-lg-3 mb-lg-4" style="color: white;">GeoClick : GPSCamera On Photo</h4>
+
+          <!-- Logo End -->
+          <div id="header-nav" class="collapse navbar-collapse w-100">
+            <ul class="navbar-nav my-lg-auto text-lg-center">
+
+              <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
+
+            </ul>
+          </div>
+          <ul class="social-icons social-icons-light social-icons-lg mt-lg-4 d-none d-sm-flex">
+
           </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#header-nav"><span></span><span></span><span></span></button>
         </div>
-        <ul class="social-icons social-icons-light social-icons-lg mt-lg-4 d-none d-sm-flex">
-      
-        </ul>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
-      </div>
-    </nav>
-    <!-- Navbar End --> 
-  </header>
-  <!-- Header End --> 
-  
-  <!-- Content
+      </nav>
+      <!-- Navbar End -->
+    </header>
+    <!-- Header End -->
+
+    <!-- Content
   ============================================= -->
-  <div id="content" role="main"> 
-    
-    <!-- Intro
+    <div id="content" role="main">
+
+      <!-- Intro
     ============================================= -->
-    <section id="home">
-      <div class="hero-wrap">
-        <div class="hero-mask bg-light"></div>
-        <div class="hero-content d-flex pt-5 fullscreen">
-          <div class="container pt-5">
-            <div class="row mt-5 mb-n5">
-              <div class="col-lg-12 align-self-center text-center">
-            
-                <h2 class="text-15 fw-600 mb-3">GPS Photo Location On Map | Android</h2>
-                <p class="lead mb-5"><b>GPS Photo Location On Map</b></p>
-                <img class="img-fluid" src="./image/Appdata_image/Logo/Logo.png" alt="" /> </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Intro end --> 
-    
+      <section id="home">
+        <div class="hero-wrap">
+          <div class="hero-content d-flex">
+            <div class="container">
 
+              <div class="col-lg-12 align-self-center text-center pt-5">
 
-    
-   
-    
-    
-    <!-- Our App Function -->
-    <section id="ourappfunction" class="section bg-light px-lg-4">
-        <div class="container">
-            <h2 class="text-9 fw-600 text-center">Our App Function</h2>
-            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
-            <p class="lead text-center mb-4">You can present your app screens. It is all very easy!</p>
-            <div class="owl-carousel owl-theme" data-nav="true" data-autoplay="true" data-loop="true" data-margin="40" data-slideby="1" data-stagepadding="15" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="3">
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/1.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/2.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/3.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/4.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/5.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/6.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/7.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/8.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/9.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/10.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/11.jpg"> </div>
-              <div class="item shadow-md"> <img class="img-fluid" alt="" src="./image/App_screenshorts/12.jpg"> </div>
-            </div>
-          </div>
-    </section>
-    <!-- Our App Function end --> 
-    
+                <h2 class="text-7 fw-600 ">Privacy Policy</h2>
+                <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+                <p class="lead mb-5 text-4"><b>GeoClick : GPSCamera On Photo
+                    <br />
+                    Updated: 05/07/2024
+                    <br />
+                    © 2024 Reyuna Apps. All rights reserved.
+                  </b></p>
 
-    
-    <!-- Contact
-    ============================================= -->
-    <section id="contact" class="bg-light">
-      <div class="row g-0">
-        <div class="col-md-12 col-lg-12 bg-white">
-          <section class="section px-4 px-sm-5">
-            <h2 class="fw-600 mb-3">Contact Us</h2>
-            <hr class="heading-separator-line bg-primary opacity-10">
-            <p class="lead">For Support and Query, Get in touch with us.</p>
-            <div class="featured-box style-1">
-                <div class="featured-box-icon text-6"> <i class="fas fa-envelope"></i> </div>
-                <h3>Gmail Id:</h3>
-                <p>reyuna.apps@gmail.com</p>
               </div>
-          </section>
+            </div>
+
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- Contact end --> 
-    
-  </div>
-  <!-- Content end --> 
-  
-  <!-- Footer
-  ============================================= -->
-  <footer id="footer" class="section border-top px-lg-4">
-    <div class="container">
+      </section>
+      <!-- Intro end -->
+
+
+      <!-- main============================================= -->
+      <section id="contact" class="bg-light">
+        <div class="row g-0">
+
+          <div class="col-md-12 col-lg-12 bg-white">
+
+            <div class="featured-box style-1">
+
+              <p>Reyuna built the "GeoClick" - GPS Camera on Photo app as a Free app.
+                This Service is provided by Reyuna at no cost and is intended for use as is.
+                <br />
+                It is important that you read this policy together with any other privacy policies or fair processing
+                policies we may provide on specific occasions so that you are fully aware of when, why and how we
+                collect and process your data. We do. If you disagree with this policy in whole or in part, you are
+                entitled to uninstall using this application at any time.
+                <br />
+                This page is used to inform visitors regarding my policies with the collection, use, and disclosure of
+                Information If you choose to use my Service, then you agree to the collection and use of information
+                in relation to this policy. The Information that I collect is used for providing and improving the
+                Service. I will not use or share your information with anyone except as described in this Privacy
+                Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
+                which is accessible at Reyuna unless otherwise defined in this Privacy Policy.
+              </p>
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Owner and Data Controller</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+            <div class="featured-box style-1">
+              <p>Reyuna Apps (hereinafter referred to collectively as “We”, “us”, “our”)</p>
+
+              <h3>Gmail Id:</h3>
+              <p>reyuna.apps@gmail.com</p>
+            </div>
+
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">What Information Will We Collect?</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+            <div class="featured-box style-1">
+              <p>
+              <ul>
+                <li>
+
+                  Generally, We DO NOT require You to create an account on our Apps, and
+                  therefore, We DO NOT collect any data from You when You
+                  download and/or use our Apps. Also, We DO NOT track your browsing
+                  history.</li>
+                <li>
+                  We Do Not Collect Information. Information Like name,
+                  username or other the information you stored on your device, and the
+                  information to identify you or other individuals when you use
+                  applications, services or websites.
+                </li>
+
+                <li>All features and services within the Apps don't require the collection
+                  of face data. We guarantee that face data will not be collected, used,
+                  stored, and shared.</li>
+                <li>
+                  Non-Information. When users interact with our application, we
+                  may collect non-personal-identity information associated with the user.
+                  Non-personal-identity information may include your phone's model,
+                  version of Android and other similar information.
+                </li>
+                <li>PLEASE NOTE THAT unless otherwise expressed in this Policy, We DO NOT
+                  collect and/or store online any of your data (such as your social
+                  platform account password, credit card information) in any
+                  circumstances.
+                </li>
+                <li>
+                  We want to be completely transparent with our users regarding data.
+                  Although this app does not store any data online, some features require
+                  photos or videos that the user wants to download at the time of
+                  downloading. Additionally, to improve certain features,
+                  SharedPreferences and Room Database are used, which are limited to the
+                  user's device only.
+                </li>
+
+
+              </ul>
+
+              For a better experience, while using our Service, I may require you to
+              provide us with certain personally identifiable information. <b>
+                Information
+                that I request will be retained on your device and is not collected by
+                me in
+                any way.
+              </b>
+
+              The app does use third party services that may collect information used to
+              identify you.
+
+              Link to privacy policy of third party service providers used by the app
+              <br>
+              <a href="https://policies.google.com/privacy">Google Play Services</a> <br>
+              <a href="https://support.google.com/admob">AdMobe</a> <br>
+              <a href="https://firebase.google.com/terms">Firebase</a><br>
+
+              <a
+                href="https://support.google.com/googleplay/answer/2479637?hl=en-IN&visit_id=638344145946467742-1941981652&p=play_refund&rd=1">Refunds
+                on Google Play</a>
+
+              </p>
+
+
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">How We Use Your Data</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+            <div class="featured-box style-1">
+              <p>We use the non-personal data collected from you in the following ways:</p>
+              <ul>
+                <li>
+                  <strong>To Improve and Optimize Our Services:</strong>
+                  <ul>
+                    <li>Understanding how our app is used to make necessary improvements
+                      and enhancements.</li>
+                    <li>Identifying and fixing bugs and issues to provide a better user
+                      experience.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>For Analytical Purposes:</strong>
+                  <ul>
+                    <li>Analyzing app usage trends and user behavior to develop new
+                      features and improve existing ones.</li>
+                    <li>Generating aggregate statistics about app performance and usage.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>To Ensure Compatibility and Functionality:</strong>
+                  <ul>
+                    <li>Ensuring the app functions correctly on different devices and
+                      operating systems.</li>
+                    <li>Customizing the app experience based on the device
+                      specifications.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>To Enhance Security:</strong>
+                  <ul>
+                    <li>Monitoring for and protecting against fraud and misuse of our
+                      app.</li>
+                    <li>Improving our app’s security features based on device and usage
+                      data.</li>
+                  </ul>
+                </li>
+                <li>
+                  <strong>For Compliance and Legal Purposes:</strong>
+                  <ul>
+                    <li>Complying with legal obligations and resolving any disputes that
+                      may arise.</li>
+                    <li>Responding to requests from regulatory authorities as required
+                      by law.</li>
+                  </ul>
+                </li>
+              </ul>
+              <p>By collecting and using this non-personal data, we aim to continuously
+                improve the functionality, security, and overall user experience of our app.
+              </p>
+
+
+              This App DOES NOT share, sell, rent, or trade information with third parties for their own promotional
+              purposes.
+
+              <br /> <br /> <br />
+              <h6 class="text-4">Hosting and backend infrastructure</h6>
+              <div class="content">
+                <p>
+                  We have not used any hosting or backend for IsSave.
+
+                  The data used by Google Ads, Firebase, or OneSignal has a separate
+                  infrastructure.
+                </p>
+
+              </div>
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">If You Fail to Provide Data</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                It is essential to clarify that we only collect non-personal data such as
+                version, build, and model. This data is collected only when you provide
+                feedback via email. If you fail to provide this non-personal data, it will
+                not affect the functionality or services of our app.
+              </p>
+              <p>
+                The non-personal data collected is solely used to improve our services and
+                is deleted immediately after the service is satisfied. Therefore, if you
+                choose not to provide this data, there will be no negative impact on your
+                use of our app.
+              </p>
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Your Rights and Controls</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                As we have informed you earlier, we do not store any personal data. However,
+                when you communicate with the developer, your non-personal data is collected
+                as feedback via email, which we have described in detail above. This data is
+                deleted once your requirements are met and you are satisfied with our
+                service.
+
+                We also provide support for removing and accessing this data.
+                </br>
+                You have rights under applicable data protection law in relation to our use
+                of your data, including:
+              <ul>
+                <li>Data Access. You have the right to request access to your data;
+                </li>
+                <li>Rectification. You have the right to update or amend your data
+                  if it is inaccurate or incomplete;</li>
+
+                <li>Erasure. You have the right to request the deletion of your non-personal
+                  data, or restrict its use, in certain circumstances (for example You can
+                  request that We erase your data where it is no longer necessary
+                  for the purpose for which it was collected).
+
+                </li>
+
+
+                <li>Lodging Complaints: You have the right to lodge complaints about our
+                  data processing
+                  activities by contacting our Data Officer via the "Contact Us" section
+                  above, or with the relevant supervisory authority or bring legal action.
+                  <br>
+
+                  (If needed, please contact <b>reyuna.apps@gmail.com</b> and We will
+                  provide
+                  You
+                  with detailed information regarding the contact details of the
+                  respective competent supervisory authority).
+                </li>
+                <li>If You are EU and Swiss individuals, you also have the following right,
+                  under GDPA, to:
+                  <ul>
+                    <li>Request the restricted processing of their information;
+                    </li>
+                    <li>Receive the information that they have provided us
+                      with, in a structured, commonly used and machine-readable format
+                      and You have the right to transmit that information to another
+                      controller without hindrance or ask us to do so.</li>
+                  </ul>
+                </li>
+                <li>If You are California individuals, you also have the following right,
+                  under CCPA, to:
+                  Request that We disclose information to You about Our collection, use,
+                  sale, disclosure for business purposes and share of personal
+                  information. Once We receive and confirm Your request, We will disclose
+                  to You:
+                <li>Request disclosure of our collection, use, sale, disclosure for business
+                  purposes, and sharing of non-personal information.</li>
+                <li>Be treated fairly. You have the right not to be discriminated against
+                  for exercising any of your consumer rights, including by denying goods
+                  or services to you, charging different prices or rates, providing a
+                  different level or quality of goods or services, or suggesting that you
+                  will receive different treatment for exercising your rights.</li>
+
+                </li>
+
+
+                <li>Be treated fairly. You have the right not to be discriminated against
+                  for exercising any of Your consumer's rights, including by: <ul>
+                    <li>Denying goods or services to You;</li>
+                    <li>Charging different prices or rates for goods or services,
+                      including the use of discounts or other benefits or imposing
+                      penalties;</li>
+                    <li>Providing a different level or quality of goods or services to
+                      You;</li>
+                    <li>Suggesting that You will receive a different price or rate for
+                      goods or services or a different level or quality of goods or
+                      services.</li>
+
+                  </ul>
+                </li>
+
+              </ul>
+              <br>
+              If You have any question about these rights or You would like exercise any of
+              them, please contact us by the provided email address. Before We can respond to
+              a request to exercise one or more of the rights listed above, You may be
+              required to verify your identity or your account details. Please note that your
+              ability to access or control your data will be limited in some cases,
+              as required or permitted by applicable law. (We will reply to you within 14
+              working days of receiving your email. When the email is sent successfully, our
+              reply will be deemed to have been delivered.)
+              <br><br>
+              PLEASE NOTE THAT if You decide not to provide the data We request (such
+              as your contact detail to communicate with You) We may not be able to timely or
+              adequately respond to your needs or proposals with respect to your rights as set
+              forth above.
+
+              </p>
+            </div>
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Security of Data</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                The security, integrity, and confidentiality of your data are
+                extremely important to us. We will use various technologies and
+                administrative measures to protect your data which have been
+                collected and/or stored by us from being lost, being misused, unauthorized
+                accessed, or leaking. In addition, all processing by our staff is based on
+                their work assignments and bound by confidentiality obligations.
+                <br>
+                PLEASE NOTE THAT despite our best efforts to provide security protection for
+                your data, due to the limit of technology as well as various
+                possible malicious means in the internet industry, no security measures are
+                perfect or impenetrable. We will regularly review our security procedures to
+                consider appropriate new technology and methods.
+              </p>
+
+              <br>
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Where We Store Your Data</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              Generally, We only collect and use your data to the extent of responding to your request, and such data
+              will not be stored in our local device or server. To be specific, if You contact us for feedback,
+              complaints, bug reports, or questions regarding your data, We may collect and use your technical
+              information about the device(s) and/or browsers (including without limitation your IP address, browsing
+              type, mobile model, operating systems, network type, and other browser settings/preference) You may use.
+            </div>
+
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">How Long We Store Your Data</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              Again, We DO NOT store your personal data unless We otherwise express so in this Policy. In the case We
+              retain your contact details (such as email address) and feedback/complaints on Google Sheet, We will
+              delete such data as soon as You are satisfied with our response.
+            </div>
+
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Advertising</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                PLEASE NOTE THAT We use Admob, IronSource, Applovin as advertising
+                providers, any advertising on our Apps are published and controlled by them
+                instead of us, and therefore, if You click those advertising link to any
+                third party, You shall read their privacy policies carefully, and You shall
+                understand that their privacy policies are not controlled or covered by us.
+              <ul>
+                <li>AdMob by Google : You can opt-out from the AdMob by Google service by
+                  following the instructions described by <a
+                    href="https://support.google.com/ads/answer/2662922?hl=en">https://support.google.com/ads/answer/2662922?hl=en</a>
+                  <br> For more
+                  information on how Google uses the collected information, please visit
+                  the "How Google uses data when you use our partners' sites or app" <a
+                    href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>
+                  or visit the
+                  Privacy Policy of Google: <a
+                    href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+                </li>
+                <li>IronSource: IronSource is provided by the IronSource Corporation.
+
+                  If you'd like to learn more about IronSource, please visit the Privacy
+                  Policy page of IronSource: <a
+                    href="https://www.is.com/privacy-policy/">https://www.is.com/privacy-policy/</a>
+                </li>
+                <li>AppLovin: AppLovin is provided by the AppLovin Corporation.
+
+                  If you'd like to learn more about AppLovin, please visit the Privacy
+                  Policy page of AppLovin: <a
+                    href="https://www.applovin.com/privacy">https://www.applovin.com/privacy</a>
+                </li>
+              </ul>
+              </p>
+
+
+
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Google Play billing (Subscription and InApp Purchase)</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                All Purchase use Google Play's billing library and will go through your
+                Google account.
+                Subscription will be auto renewed at the each cycle. you can cancel
+                anything!
+                please note that certain conditions may apply in cancel process. lifetime
+                Subscription cannot be canceled.
+                <br> <br>
+                In order to purchase Content through Google Play, you must have a Google
+                Payments account and agree to the Google Payments Terms of Service.The
+                Google Payments Privacy Notice applies whenever you purchase Content using a
+                Google Payments account. You are responsible for all amounts payable
+                associated with purchases made through Google Play on your Google Payments
+                account.
+                <br> <br>
+
+                Subscriptions are automatically charged each billing period (whether weekly,
+                monthly, annually, or another period), and you may be charged no earlier
+                than 24 hours before the beginning of each billing period.
+                <br>
+              </p>
+              <a href="https://play.google.com/intl/en-US_us/about/play-terms/index.html">Read
+                More about Google Refund
+                Policy</a><br>
+            </div>
+
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Cookies</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+
+              <p>
+                Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers.
+                These are sent to your browser from the websites that you visit and are stored on your device's internal
+                memory.
+
+                <br />
+
+                This Service does not use these “cookies” explicitly. However, the app may use third-party code and
+                libraries that use “cookies” to collect information and improve their services. You have the option to
+                either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose
+                to refuse our cookies, you may not be able to use some portions of this Service.
+              </p>
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Service Providers</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                Our service includes and links to features and services (including but not
+                limited to, social applications like YouTube, Facebook, Instagram, and
+                WhatsApp)
+                that are provided by a third party. We do not control such third-party sites
+                or
+                services and are not responsible for the content or functionality of such
+                sites
+                or services. Our inclusion of links does not imply any endorsement or
+                association with their operators. The terms applicable to the use of such
+                third
+                party services will apply and We will not be responsible for anything that
+                is
+                done by You or the third-party service provider in connection with your use
+                of
+                their service. Please note that We do not keep your private information
+                like your account, ID, password and etc. on the third-party apps/websites in
+                our
+                services.
+                <br>
+                <br>
+                I may employ third-party companies and individuals due to the following
+                reasons:
+              <ul>
+                <li>To facilitate our Service;</li>
+                <li>To provide the Service on our behalf;</li>
+                <li> To perform Service-related services; </li>
+                <li>To assist us in analyzing how our Service is used.</li>
+              </ul>
+              <br>
+              I want to inform users of this Service that these third parties have access to
+              your Information. The reason is to perform the tasks assigned to them
+              on our behalf. However, they are obligated not to disclose or use the
+              information for any other purpose.
+              </p>
+
+            </div>
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Security</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                I value your trust in providing us your Information, thus we are
+                striving to use commercially acceptable means of protecting it. But remember
+                that no method of transmission over the internet, or method of electronic
+                storage is 100% secure and reliable, and I cannot guarantee its absolute
+                security.
+              </p>
+            </div>
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Links to Other Sites</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                This Service may contain links to other sites. If you click on a third-party
+                link, you will be directed to that site. Note that these external sites are
+                not operated by me. Therefore, I strongly advise you to review the Privacy
+                Policy of these websites. I have no control over and assume no
+                responsibility for the content, privacy policies, or practices of any
+                third-party sites or services.
+              </p>
+            </div>
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Children's Privacy</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                These Services do not address anyone under the age of 13. I do not knowingly
+                collect personally identifiable information from children under 13 years of
+                age. In the case I discover that a child under 13 has provided me with
+                information, I immediately delete this from our servers. If you are
+                a parent or guardian and you are aware that your child has provided us with
+                information, please contact me so that I will be able to do
+                necessary actions.
+              </p>
+            </div>
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Changes to This Privacy Policy</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p>
+                I may update our Privacy Policy from time to time. Thus, you are advised to
+                review this page periodically for any changes. I will notify you of any
+                changes by posting the new Privacy Policy on this page.
+                <br>
+                This policy is effective as of 05/07/2024
+              </p>
+            </div>
+
+
+            <h2 class="fw-600 mb-3 pt-5 text-4 text-center">Contact Us</h2>
+            <hr class="heading-separator-line bg-primary opacity-10 mx-auto">
+
+            <div class="featured-box style-1">
+              <p class="lead text-4">For Support and Query, Get in touch with us.</p>
+              <h3>Gmail Id:</h3>
+              <p>reyuna.apps@gmail.com</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+
+
+
+
+
+
+
     </div>
-  </footer>
-  <!-- Footer end --> 
-  
-</div>
-<!-- Document Wrapper end --> 
+    <!-- Content end -->
 
-<!-- Back to Top
-============================================= --> 
-<a id="back-to-top" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
 
-<!-- JavaScript --> 
-<script src="vendor/jquery/jquery.min.js"></script> 
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
-<!-- Easing --> 
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script> 
-<!-- Appear --> 
-<script src="vendor/jquery.appear/jquery.appear.min.js"></script> 
-<!-- Parallax Bg --> 
-<script src="vendor/parallaxie/parallaxie.min.js"></script> 
-<!-- Owl Carousel --> 
-<script src="vendor/owl.carousel/owl.carousel.min.js"></script> 
-<!-- Magnific Popup --> 
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
-<!-- Subscribe form --> 
-<script src="vendor/jquery-form/jquery.form.min.js"></script> 
-<script src="vendor/jquery-validation/jquery.validate.min.js"></script> 
-<!-- Custom Script --> 
-<script src="js/theme.js"></script>
-<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+  </div>
+  <!-- Document Wrapper end -->
+
+  <!-- Back to Top
+============================================= -->
+  <a id="back-to-top" data-bs-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i
+      class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Easing -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Appear -->
+  <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+  <!-- Parallax Bg -->
+  <script src="vendor/parallaxie/parallaxie.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Subscribe form -->
+  <script src="vendor/jquery-form/jquery.form.min.js"></script>
+  <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+  <!-- Custom Script -->
+  <script src="js/theme.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 </body>
+
 </html>
