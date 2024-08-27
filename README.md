@@ -4,11 +4,16 @@ Tag photos with GPS coordinates, capturing and documenting your travels and adve
 
 <p align="center">
     <a href="">
-      <img src="" width="1280" />
+      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/graphics.jpg?raw=true" width="1000" />
     </a>
   </p>
   
   
+- Reyuna Apps
+- Project Created on: June 27, 2024
+- Authors: @reyuna, @banrossyn, @sumino
+- See Also: reyuna.apps@gmail. com
+
 <div align="center">
 <a href="mailto:banrossyn@gmail.com"><img src="https://img.shields.io/badge/Email-banrossyn%40gmail.com-blue"></a>
 <a href="https://wa.me/+919694260426/" target="_blank"><img src="https://img.shields.io/badge/whatsapp-%40+919694260426-28a8ea"></a>
@@ -41,28 +46,28 @@ Capture your moments with GeoClick and tag your photos with accurate GPS coordin
 
  <p align="center">
     <a>
-      <img src="" width="200" />
+      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%201.jpg?raw=true" width="200" />
     </a>
  <a>
-      <img src=""  width="200" />
+      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%202.png?raw=true"  width="200" />
     </a>
   <a>
-      <img src=""  width="200" />
+      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%203.jpg?raw=true"  width="200" />
     </a>
      <a>
-      <img src=""  width="200" />
+      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%204.jpg?raw=true"  width="200" />
     </a>
 <a>
-    <img src=""  width="200" />
+    <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%205.jpg?raw=true"  width="200" />
     </a>
  <a>
-      <img src=""  width="200" />
+      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%206.jpg?raw=true"  width="200" />
     </a>
  <a>
-    <img src=""  width="200" />
+    <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%207.jpg?raw=true"  width="200" />
     </a>
  <a>
-      <img src=""  width="200" />
+      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%208.jpg?raw=true"  width="200" />
     </a>
  <a>
   </p>
@@ -80,7 +85,7 @@ Capture your moments with GeoClick and tag your photos with accurate GPS coordin
 
 ### License
 ```
-Copyright 2024 CodersSmile (Priya122002)
+Copyright 2024 Reyuna Apps
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
