@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back_icon_5"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/back_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <TextView
+        android:id="@+id/template_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/template_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/back_icon_5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <ImageView
+        android:id="@+id/template_card"
+        android:layout_width="@dimen/_270sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:src="@drawable/template_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/template_tv"
+        app:layout_constraintVertical_bias="0.050000012" />
+
+    <ImageView
+        android:id="@+id/edit_template_icon"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:src="@drawable/edit_template_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/template_card"
+        app:layout_constraintEnd_toEndOf="@+id/template_card"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="@+id/template_card"
+        app:layout_constraintTop_toTopOf="@+id/template_card"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/location_details_template_card"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:src="@drawable/location_details_template_card"
+        app:layout_constraintBottom_toBottomOf="@+id/template_card"
+        app:layout_constraintEnd_toEndOf="@+id/template_card"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/template_card"
+        app:layout_constraintTop_toBottomOf="@+id/template_tv"
+        app:layout_constraintVertical_bias="0.57" />
+
+    <TextView
+        android:id="@+id/city_country_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <TextView
+        android:id="@+id/long_lat_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.35000002" />
+
+    <TextView
+        android:id="@+id/plus_code_tv_template_location_details_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintVertical_bias="0.48000002"
+
+        />
+
+    <ImageView
+        android:id="@+id/cloudy_icon"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:src="@drawable/cloudy_icon"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.71"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.48000002"
+
+        />
+
+    <TextView
+        android:id="@+id/weather_tv_template_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_6ssp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.48000002"
+
+        />
+
+    <TextView
+        android:id="@+id/date_day_time_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.20"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/time_zone_tv_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.62" />
+
+
+    <TextView
+        android:id="@+id/captured_by_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/captured_by_gps_map_camera_app"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <ImageView
+        android:id="@+id/wind_icon"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:src="@drawable/wind_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageView
+        android:id="@+id/humidity_icon"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:src="@drawable/humidity_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/humidity_tv_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/humidity_tv_template"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+
+    <ImageView
+        android:id="@+id/pressure_icon"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:src="@drawable/pressure_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/pressure_tv_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageView
+        android:id="@+id/altitude_icon"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:src="@drawable/altitude_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <TextView
+        android:id="@+id/altitude_tv_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <ImageView
+        android:id="@+id/accuracy_icon"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:src="@drawable/accuracy_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <TextView
+        android:id="@+id/accuracy_tv_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/wind_tv_template"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_6ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/location_details_template_card"
+        app:layout_constraintEnd_toEndOf="@+id/location_details_template_card"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintTop_toTopOf="@+id/location_details_template_card"
+        app:layout_constraintVertical_bias="0.75" />
+
+    <FrameLayout
+        android:id="@+id/map_container_template"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_70sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/template_card"
+        app:layout_constraintEnd_toStartOf="@+id/location_details_template_card"
+        app:layout_constraintStart_toStartOf="@+id/template_card"
+        app:layout_constraintTop_toTopOf="@+id/template_card"
+        app:layout_constraintVertical_bias="0.44">
+
+
+        <fragment
+            android:id="@+id/map_fragment_template"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_template"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/template_card"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

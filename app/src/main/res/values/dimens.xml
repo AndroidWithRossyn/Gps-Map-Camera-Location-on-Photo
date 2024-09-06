@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="your_margin_start_dimen">68dp</dimen>
+    <dimen name="_260dp">260dp</dimen>
+    <dimen name="margin_top">620dp</dimen>
+    <dimen name="margin_top_frame_container">50dp</dimen>
+    <dimen name="margin_top_not_full_screen_mode">185dp</dimen>
+</resources>

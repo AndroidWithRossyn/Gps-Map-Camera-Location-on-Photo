@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/bottom_sheet_top_line"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_2sdp"
+        android:background="@color/dark_grey"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/time_zone_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:text= "Time Zone"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:id="@+id/line_below_map_type_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+
+    <TextView
+        android:id="@+id/utc_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
+        android:text="UTC +05:00"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/gmt_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
+        android:text="GMT +05:00"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/pakistan_standard_time_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:text="Pakistan Standard Time"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/plus_five_zero_zero_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:text="+05:00"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+
+
+</LinearLayout>

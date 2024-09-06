@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/bottom_sheet_top_line"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_2sdp"
+        android:background="@color/dark_grey"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/map_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:text= "@string/map_type"
+        />
+
+    <View
+        android:id="@+id/line_below_map_type_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+
+    <TextView
+        android:id="@+id/normal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14ssp"
+        android:text="@string/normal"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        />
+
+    <TextView
+        android:id="@+id/satellite_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_14ssp"
+        android:text="@string/satellite"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        />
+
+    <TextView
+        android:id="@+id/terrain_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:text="@string/terrain"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        />
+
+    <TextView
+        android:id="@+id/hybrid_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:text="@string/hybrid"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        />
+
+
+</LinearLayout>

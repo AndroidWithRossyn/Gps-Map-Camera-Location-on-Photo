@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/bottom_sheet_top_line"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_2sdp"
+        android:background="@color/dark_grey"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/map_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:text= "@string/lat_long"
+        />
+
+    <View
+        android:id="@+id/line_below_map_type_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+
+    <TextView
+        android:id="@+id/decimal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
+        android:text="Decimal"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lat_long_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:text="@string/lat_long_decimal"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/decimal_degs_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
+        android:text="Decimal Degs"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lat_long_tv_bottom_sheet_selection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_10ssp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:text="@string/lat_long_tv_bottom_sheet_selection"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/decimal_degs_micro_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:text="Decimal Degs Micro"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lat_long_tv_bottom_sheet_selection_decimal_degs_micro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="@color/grey"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:text="Lat 33.516442 N Long 73.109588 E"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/decimal_mins_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:text="Dec Mins"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/lat_long_tv_bottom_sheet_selection_dec_mins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_10ssp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:text="Lat 3330.98652 Long 736.57528"
+        tools:ignore="HardcodedText" />
+
+
+</LinearLayout>

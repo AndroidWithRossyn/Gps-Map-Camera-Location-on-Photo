@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back_icon_1"
+        android:layout_width="@dimen/_17sdp"
+        android:layout_height="@dimen/_17sdp"
+        android:src="@drawable/back_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <TextView
+        android:id="@+id/select_folder_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_folder"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/back_icon_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <TextView
+        android:id="@+id/save_original_photos_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_original_photos"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_9ssp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_icon_1"
+        app:layout_constraintVertical_bias="0.060000002" />
+
+    <Switch
+        android:id="@+id/switch_folders"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toEndOf="@+id/save_original_photos_tv"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15000003"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <ImageView
+        android:id="@+id/folders_card_1"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/folders_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_folder_tv"
+        app:layout_constraintVertical_bias="0.13999999" />
+
+    <ImageView
+        android:id="@+id/folder_icon_1"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/folder_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/folders_card_1"
+        app:layout_constraintEnd_toEndOf="@+id/folders_card_1"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/folders_card_1"
+        app:layout_constraintTop_toTopOf="@+id/folders_card_1" />
+
+    <TextView
+        android:id="@+id/default_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/folders_card_1"
+        app:layout_constraintEnd_toEndOf="@+id/folders_card_1"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/folder_icon_1"
+        app:layout_constraintTop_toTopOf="@+id/folders_card_1" />
+
+    <ImageView
+        android:id="@+id/folders_card_2"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/folders_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/folders_card_1"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+    <ImageView
+        android:id="@+id/folder_icon_2"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/folder_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/folders_card_2"
+        app:layout_constraintEnd_toEndOf="@+id/folders_card_2"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/folders_card_2"
+        app:layout_constraintTop_toTopOf="@+id/folders_card_2" />
+
+    <TextView
+        android:id="@+id/site_1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/site_1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/folders_card_2"
+        app:layout_constraintEnd_toEndOf="@+id/folders_card_2"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/folder_icon_2"
+        app:layout_constraintTop_toTopOf="@+id/folders_card_2" />
+
+    <ImageView
+        android:id="@+id/folders_card_3"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/folders_card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.01999998"
+        app:layout_constraintTop_toBottomOf="@+id/folders_card_2" />
+
+    <ImageView
+        android:id="@+id/folder_icon_3"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:padding="@dimen/_5sdp"
+        android:src="@drawable/folder_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/folders_card_3"
+        app:layout_constraintEnd_toEndOf="@+id/folders_card_3"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="@+id/folders_card_3"
+        app:layout_constraintTop_toTopOf="@+id/folders_card_3" />
+
+    <TextView
+        android:id="@+id/site_2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/site_2"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/folders_card_3"
+        app:layout_constraintEnd_toEndOf="@+id/folders_card_3"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toEndOf="@+id/folder_icon_3"
+        app:layout_constraintTop_toTopOf="@+id/folders_card_3" />
+
+    <ImageView
+        android:id="@+id/add_more_icon"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/add_more_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/folders_card_3"
+        app:layout_constraintVertical_bias="0.85" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

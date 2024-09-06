@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <View
+        android:id="@+id/bottom_sheet_top_line"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_2sdp"
+        android:background="@color/dark_grey"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/weather_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_gravity="center"
+        android:text= "Weather"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:id="@+id/line_below_map_type_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/grey"
+        android:layout_marginTop="@dimen/_15sdp"
+        />
+
+    <TextView
+        android:id="@+id/value_in_celsius_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
+        android:text="0.0 deg C"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/fahrenheit_value_tv_bottom_sheet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/_12ssp"
+        android:text="32 deg F"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        tools:ignore="HardcodedText" />
+
+
+
+
+</LinearLayout>
