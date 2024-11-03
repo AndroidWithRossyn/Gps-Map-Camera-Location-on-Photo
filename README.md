@@ -7,15 +7,18 @@ Tag photos with GPS coordinates, capturing and documenting your travels and adve
       <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/graphics.jpg?raw=true" width="1000" />
     </a>
   </p>
-  
+
+
   
 ## Reyuna Apps
-  - Project Created on: June 27, 2024
-  - Live on Playstore: Nov 01, 2024 -  [Download Now](https://play.google.com/store/apps/details?id=com.reyuna.gpscamera.mapphotovideo)
-  - Authors: [@reyuna](https://github.com/developer-reyuna)
-  - Developer Mail: [reyuna.apps@gmail.com](mailto:reyuna.apps@gmail.com)
-  - More about developer : [@AndroidWithRossyn](https://github.com/AndroidWithRossyn)
-
+Reyuna built the "GeoClick" Gps Map Camera app as a Free app. This Service is provided by Sumino at no cost and is intended for use as is.
+- Project Created on: June 27, 2024
+- Live on Playstore: Nov 01, 2024 -  [Download Now](https://play.google.com/store/apps/details?id=com.reyuna.gpscamera.mapphotovideo)
+- Authors: [@reyuna](https://github.com/developer-reyuna)
+- Developer Mail: [reyuna.apps@gmail.com](mailto:reyuna.apps@gmail.com)
+- More about developer : [@AndroidWithRossyn](https://github.com/AndroidWithRossyn)
+- Privacy Policy - https://developer-reyuna.github.io/Gps-Camera-Location-on-Photo/privacy-policy.html
+- More Information About GeoClick (permission or SDKs) - https://developer-reyuna.github.io/Gps-Camera-Location-on-Photo/
 ---
 
 ### 🚀 **Selling the Source Code for My GPS Map Camera App!** 📸🌍
@@ -106,4 +109,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
