@@ -9,16 +9,28 @@ Tag photos with GPS coordinates, capturing and documenting your travels and adve
   </p>
   
   
-- Reyuna Apps
-- Project Created on: June 27, 2024
-- Authors: @reyuna, @banrossyn, @sumino
-- See Also: reyuna.apps@gmail. com
+## Reyuna Apps
+  - Project Created on: June 27, 2024
+  - Live on Playstore: Nov 01, 2024 -  [Download Now](https://play.google.com/store/apps/details?id=com.reyuna.gpscamera.mapphotovideo)
+  - Authors: [@reyuna](https://github.com/developer-reyuna)
+  - Developer Mail: [reyuna.apps@gmail.com](mailto:reyuna.apps@gmail.com)
+  - More about developer : [@AndroidWithRossyn](https://github.com/AndroidWithRossyn)
 
-<div align="center">
+---
+
+### 🚀 **Selling the Source Code for My GPS Map Camera App!** 📸🌍
+
+I’m excited to announce that I’m selling the **complete source code** for my **GPS Map Camera** app! 📱✨ This app is perfect for anyone looking to add location-based functionality to images and videos. It’s a fantastic tool for travelers,professionals, or anyone who wants to document locations with ease! 🌎📷
+
+---
+
+### 📬 **Interested?**
+If you’re interested in purchasing, feel free to reach out via DM! 📩 Let’s discuss how this code could fit your project needs!
+
+Deals On -
+<div align="left">
 <a href="mailto:banrossyn@gmail.com"><img src="https://img.shields.io/badge/Email-banrossyn%40gmail.com-blue"></a>
 <a href="https://wa.me/+919694260426/" target="_blank"><img src="https://img.shields.io/badge/whatsapp-%40+919694260426-28a8ea"></a>
-<a href="https://t.me/banrossyn" target="_blank"><img src="https://img.shields.io/badge/Telegram-%40banrossyn-28a8ea"></a>
-<a href="https://www.linkedin.com/in/banrossyn/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-banrossyn-informational"></a>
 
 </div>
 
@@ -76,11 +88,6 @@ Capture your moments with GeoClick and tag your photos with accurate GPS coordin
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&width=1980&section=footer"/>
 </p>
-
-
-
-
-
 
 
 ### License
