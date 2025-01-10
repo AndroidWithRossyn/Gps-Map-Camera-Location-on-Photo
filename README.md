@@ -4,7 +4,7 @@ Tag photos with GPS coordinates, capturing and documenting your travels and adve
 
 <p align="center">
     <a href="https://play.google.com/store/apps/details?id=com.reyuna.gpscamera.mapphotovideo">
-      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/graphics.jpg?raw=true" width="1000" />
+      <img src="https://github.com/user-attachments/assets/f8efcccc-d68e-4533-b00e-7a71d4fbb03c" width="1000" />
     </a>
   </p>
 
@@ -61,28 +61,28 @@ Capture your moments with GeoClick and tag your photos with accurate GPS coordin
 
  <p align="center">
     <a>
-      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%201.jpg?raw=true" width="200" />
+      <img src="https://play-lh.googleusercontent.com/kSwrJMXHJtY4HFRECvIa_8_zGw9UDCw1NEiskz0PNqzoc1bPKvI_ycU_Wa9yxHYPkA=w2560-h1440-rw" width="200" />
     </a>
  <a>
-      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%202.png?raw=true"  width="200" />
+      <img src="https://play-lh.googleusercontent.com/J5n4OXJ8k0XCa3xuhlVZtnQO0XFsZU6lJZ0toVDAuLdAilnEFkZSrwK98zK4CHCKaVM=w2560-h1440-rw"  width="200" />
     </a>
   <a>
-      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%203.jpg?raw=true"  width="200" />
+      <img src="https://play-lh.googleusercontent.com/fo5yyUNpOw-SVl5vT3Yqj1tkl-5yMKm6r03nlexRKpty3ZMZ9d-dNrrvmer4ptxWchE=w2560-h1440-rw"  width="200" />
     </a>
      <a>
-      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%204.jpg?raw=true"  width="200" />
+      <img src="https://play-lh.googleusercontent.com/OkQEKT_2QO02wwMhPfgtsNhj9nqtS0iMmtw3FsKC_10doMU8VKK_uBEnDJabJtp2gcE=w2560-h1440-rw"  width="200" />
     </a>
 <a>
-    <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%205.jpg?raw=true"  width="200" />
+    <img src="https://play-lh.googleusercontent.com/dr_vuQFZIRI3SdZLMgek7SSrZ-3Avl9ilr1KUh5GtOTEhpaXKRw6aM4PWWB-HMEwM1WV=w2560-h1440-rw"  width="200" />
     </a>
  <a>
-      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%206.jpg?raw=true"  width="200" />
+      <img src="https://play-lh.googleusercontent.com/NSKLaZO9YUJIRBizXu9-pHKgdoypWXSAOMz_LHadGEh-jtmiv2nTlmCDhmk0Kydat5w=w2560-h1440-rw"  width="200" />
     </a>
  <a>
-    <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%207.jpg?raw=true"  width="200" />
+    <img src="https://play-lh.googleusercontent.com/_kdmzjbmY_FQIuh4lEFTNyHKzb_Yzlqi_NhJmjfXK3rbato2YQbfQwfDvVxodoevsM0=w2560-h1440-rw"  width="200" />
     </a>
  <a>
-      <img src="https://github.com/developer-reyuna/Gps-Camera-Location-on-Photo/blob/main/image/store_listing/GeoClick%20-%208.jpg?raw=true"  width="200" />
+      <img src="https://play-lh.googleusercontent.com/YF0SItfjmGTdc_x95mbcA_JcAeCdM31hcw7jpCSr8P2If_37BHywWchzFaTOl_-bZBY=w2560-h1440-rw"  width="400" />
     </a>
  <a>
   </p>
