@@ -10,10 +10,10 @@ Tag photos with GPS coordinates, capturing and documenting your travels and adve
 
 
   
-## Reyuna Apps
+## 
 Reyuna built the "GeoClick" Gps Map Camera app as a Free app. This Service is provided by Sumino at no cost and is intended for use as is.
 - Project Created on: June 27, 2024
-- Live on Playstore: Nov 01, 2024 -  [Download Now](https://play.google.com/store/apps/details?id=com.reyuna.gpscamera.mapphotovideo)
+- Live on Playstore: Nov 01, 2024 -  [Download Now](https://github.com/AndroidWithRossyn/Gps-Map-Camera-Location-on-Photo/blob/main/GeoClick-1.0.a1.12-release.apk)
 - Authors: [@reyuna](https://github.com/developer-reyuna)
 - Developer Mail: [reyuna.apps@gmail.com](mailto:reyuna.apps@gmail.com)
 - More about developer : [@AndroidWithRossyn](https://github.com/AndroidWithRossyn)
